@@ -1,0 +1,47 @@
+:root {
+    --primary: #03001C;
+    --secondary: #301E67;
+    --analogous1: #5B8FB9;
+    --analogous2: #B6EADA;
+    --primary-text: #D9D9D9;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--primary-text);
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    padding: 0 5rem 0 5rem;
+}
+
+.aka {
+    font-weight: lighter;
+    margin-right: 1.25rem;
+    color: var(--primary-text);
+}
+
+.dev-name {
+    color: var(--analogous2);
+}
+
+.stage-name {
+    font-size: 4rem;
+    color: var(--analogous2);
+}
+
+.paragraph {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.roman-date {
+    color: var(--analogous1);
+}
