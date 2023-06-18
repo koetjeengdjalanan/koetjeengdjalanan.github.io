@@ -4,6 +4,7 @@
     --analogous1: #5B8FB9;
     --analogous2: #B6EADA;
     --primary-text: #D9D9D9;
+    --complementary-primary: #140A69
 }
 
 html {
@@ -18,7 +19,8 @@ body {
 
 .section {
     width: 100vw;
-    height: 100vh;
+    min-height: 85svh;
+    max-height: 100svh;
     padding: 0 5rem 0 5rem;
 }
 
@@ -44,4 +46,37 @@ body {
 
 .roman-date {
     color: var(--analogous1);
+}
+
+.skill {
+    /* background-color: var(--complementary-primary); */
+}
+
+.skill .skill-card {
+    background-color: var(--primary);
+    border-radius: .75rem;
+    width: 10rem;
+    height: 7rem;
+    padding: 2rem;
+}
+
+.svg-list {
+    width: auto;
+    height: 3rem;
+    fill: var(--analogous1);
+    /* stroke: var(--primary-text);
+    stroke-width: -0.2rem;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-miterlimit: inherit; */
+}
+
+.virtue minimum {
+    color: var(--analogous1);
+    opacity: .5;
+}
+
+.virtue strong {
+    color: var(--analogous1);
+    opacity: 1;
 }
