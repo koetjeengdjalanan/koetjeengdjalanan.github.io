@@ -11,10 +11,13 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/kute.js/dist/kute.min.js"
+        integrity="sha256-ekq8UIBrOC1lgaJmRRV/c50s5Hy/EBKjBD/7nM9dvp0=" crossorigin="anonymous"></script>
+    <script src="./assets/code.js"></script>
 </head>
 
 <body>
-    <div class="section row align-items-center px-sm-1 px-md-3 px-lg-5" id="hero-section">
+    <div class="section hero row align-items-center px-sm-1 px-md-3 px-lg-5" id="hero-section">
         <div class="col-md-5 col-sm-12">
             <p class="font-monospace"> <span class="terminal-start">></span> Hello World! I'm<span
                     class="blink">▂</span></p>
@@ -45,92 +48,113 @@
             </div>
         </div>
     </div>
-    <div class="container d-flex flex-column py-5 align-items-center justify-content-center">
-        <div class="row">
-            <div class="col-lg-5 col-sm-12 d-flex flex-fill justify-content-center ">
-                <img src="./assets/images/working.png" class="img-fluid working-pic" alt="working">
-            </div>
-            <div class="col-lg-7 col-sm-12 d-flex flex-fill align-items-center">
-                <div class="col">
-                    <div class="column my-3">
-                        <h1 class="text-center">More About Me</h1>
-                    </div>
-                    <div class="">
-                        <p class="paragraph">Experienced System Administrator and Linux Server enthusiast with a passion
-                            for optimizing performance and driving technical improvements. Skilled in automation, server
-                            deployment, and cost-effective decision-making, I am committed to contributing to team
-                            success through meticulous work and exceptional organizational skills. With a strong
-                            understanding of business strategy and a drive for continuous learning, I am eager to excel
-                            in the field of information technology.</p>
-                        <p class="paragraph">As an IT Consultant, I provided businesses with technology recommendations
-                            and streamlined deployment processes using Linux Server and Docker integration. I have a
-                            proven
-                            track record of success in overseeing server infrastructure, managing budgets, and ensuring
-                            optimal user experiences. With achievements in system design, strategy development, and
-                            automation, I am ready to make a positive impact as a dedicated and innovative professional
-                            in the IT industry.
-                        </p>
-                    </div>
-                    <div class="row row-cols-md-2 row-cols-sm-1 mt-5 mx-3">
-                        <div class="row">
-                            <strong class="fs-3">Full Name</strong>
-                            <p class="py-1">Martinus Simon Bestan S</p>
+    <div class="wave-divider wave-1"></div>
+    <div id="more-about-me">
+        <div class="section container d-flex flex-column py-5 align-items-center justify-content-center">
+            <div class="row">
+                <div class="col-lg-5 col-sm-12 d-flex flex-fill justify-content-center ">
+                    <img src="./assets/images/working.png" class="img-fluid working-pic" alt="working">
+                </div>
+                <div class="col-lg-7 col-sm-12 d-flex flex-fill align-items-center">
+                    <div class="col">
+                        <div class="column my-3">
+                            <h1 class="text-center">More About Me</h1>
                         </div>
-                        <div class="row">
-                            <strong class="fs-3">Nationality</strong>
-                            <p class="py-1">Indonesia</p>
+                        <div class="">
+                            <p class="paragraph">Experienced System Administrator and Linux Server enthusiast with a
+                                passion
+                                for optimizing performance and driving technical improvements. Skilled in automation,
+                                server
+                                deployment, and cost-effective decision-making, I am committed to contributing to team
+                                success through meticulous work and exceptional organizational skills. With a strong
+                                understanding of business strategy and a drive for continuous learning, I am eager to
+                                excel
+                                in the field of information technology.</p>
+                            <p class="paragraph">As an IT Consultant, I provided businesses with technology
+                                recommendations
+                                and streamlined deployment processes using Linux Server and Docker integration. I have a
+                                proven
+                                track record of success in overseeing server infrastructure, managing budgets, and
+                                ensuring
+                                optimal user experiences. With achievements in system design, strategy development, and
+                                automation, I am ready to make a positive impact as a dedicated and innovative
+                                professional
+                                in the IT industry.
+                            </p>
                         </div>
-                        <div class="row">
-                            <strong class="fs-3">Education</strong>
-                            <p class="py-1">Telkom University</p>
-                        </div>
-                        <div class="row">
-                            <strong class="fs-3">E-Mail</strong>
-                            <p class="py-1">martinsambulare@gmail.com</p>
+                        <div class="row row-cols-md-2 row-cols-sm-1 mt-5 mx-3">
+                            <div class="row">
+                                <strong class="fs-3">Full Name</strong>
+                                <p class="py-1">Martinus Simon Bestan S</p>
+                            </div>
+                            <div class="row">
+                                <strong class="fs-3">Nationality</strong>
+                                <p class="py-1">Indonesia</p>
+                            </div>
+                            <div class="row">
+                                <strong class="fs-3">Education</strong>
+                                <p class="py-1">Telkom University</p>
+                            </div>
+                            <div class="row">
+                                <strong class="fs-3">E-Mail</strong>
+                                <p class="py-1">martinsambulare@gmail.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="skill d-flex flex-row py-5 align-items-center justify-content-around mx-sm-2 mx-lg-5">
-        <div class="skill-card d-flex gap-3 p-2 flex-column align-items-center">
-            <svg class="svg-list" viewBox="0 0 384 512">
-                <path
-                    d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM80 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm54.2 253.8c-6.1 20.3-24.8 34.2-46 34.2H80c-8.8 0-16-7.2-16-16s7.2-16 16-16h8.2c7.1 0 13.3-4.6 15.3-11.4l14.9-49.5c3.4-11.3 13.8-19.1 25.6-19.1s22.2 7.7 25.6 19.1l11.6 38.6c7.4-6.2 16.8-9.7 26.8-9.7c15.9 0 30.4 9 37.5 23.2l4.4 8.8H304c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-6.1 0-11.6-3.4-14.3-8.8l-8.8-17.7c-1.7-3.4-5.1-5.5-8.8-5.5s-7.2 2.1-8.8 5.5l-8.8 17.7c-2.9 5.9-9.2 9.4-15.7 8.8s-12.1-5.1-13.9-11.3L144 349l-9.8 32.8z" />
-            </svg>
+    <div class="wave-divider wave-2"></div>
+    <div class="section skill d-flex flex-row py-5 align-items-center justify-content-md-around justify-content-sm-start mx-lg-5"
+        id="skills">
+        <div class="skill-card d-flex gap-3 p-2 flex-column align-items-center justify-content-between">
+            <div class="svg-canvas">
+                <svg class="svg-list" viewBox="0 0 384 512">
+                    <path
+                        d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM80 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm54.2 253.8c-6.1 20.3-24.8 34.2-46 34.2H80c-8.8 0-16-7.2-16-16s7.2-16 16-16h8.2c7.1 0 13.3-4.6 15.3-11.4l14.9-49.5c3.4-11.3 13.8-19.1 25.6-19.1s22.2 7.7 25.6 19.1l11.6 38.6c7.4-6.2 16.8-9.7 26.8-9.7c15.9 0 30.4 9 37.5 23.2l4.4 8.8H304c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-6.1 0-11.6-3.4-14.3-8.8l-8.8-17.7c-1.7-3.4-5.1-5.5-8.8-5.5s-7.2 2.1-8.8 5.5l-8.8 17.7c-2.9 5.9-9.2 9.4-15.7 8.8s-12.1-5.1-13.9-11.3L144 349l-9.8 32.8z" />
+                </svg>
+            </div>
             <span>Project Manager</span>
         </div>
-        <div class="skill-card d-flex gap-3 p-2 flex-column align-items-center">
-            <svg class="svg-list" viewBox="0 0 512 512">
-                <path
-                    d="M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V352c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-            </svg>
+        <div class="skill-card d-flex gap-3 p-2 flex-column align-items-center justify-content-between">
+            <div class="svg-canvas">
+                <svg class="svg-list" viewBox="0 0 512 512">
+                    <path
+                        d="M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V352c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
+                </svg>
+            </div>
             <span>Sys Administrator</span>
         </div>
-        <div class="skill-card d-flex gap-3 p-2 flex-column align-items-center">
-            <svg class="svg-list" viewBox="0 0 640 512">
-                <path
-                    d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z" />
-            </svg>
+        <div class="skill-card d-flex gap-3 p-2 flex-column align-items-center justify-content-between">
+            <div class="svg-canvas">
+                <svg class="svg-list" viewBox="0 0 640 512">
+                    <path
+                        d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z" />
+                </svg>
+            </div>
             <span>Docker Engine</span>
         </div>
-        <div class="skill-card d-flex gap-3 p-2 flex-column align-items-center">
-            <svg class="svg-list" viewBox="0 0 640 512">
-                <path
-                    d="M320 104.5c171.4 0 303.2 72.2 303.2 151.5S491.3 407.5 320 407.5c-171.4 0-303.2-72.2-303.2-151.5S148.7 104.5 320 104.5m0-16.8C143.3 87.7 0 163 0 256s143.3 168.3 320 168.3S640 349 640 256 496.7 87.7 320 87.7zM218.2 242.5c-7.9 40.5-35.8 36.3-70.1 36.3l13.7-70.6c38 0 63.8-4.1 56.4 34.3zM97.4 350.3h36.7l8.7-44.8c41.1 0 66.6 3 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7h-70.7L97.4 350.3zm185.7-213.6h36.5l-8.7 44.8c31.5 0 60.7-2.3 74.8 10.7 14.8 13.6 7.7 31-8.3 113.1h-37c15.4-79.4 18.3-86 12.7-92-5.4-5.8-17.7-4.6-47.4-4.6l-18.8 96.6h-36.5l32.7-168.6zM505 242.5c-8 41.1-36.7 36.3-70.1 36.3l13.7-70.6c38.2 0 63.8-4.1 56.4 34.3zM384.2 350.3H421l8.7-44.8c43.2 0 67.1 2.5 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7H417l-32.8 168.7z" />
-            </svg>
-            <span>PHP Backend Dev</span>
+        <div class="skill-card d-flex gap-3 p-2 flex-column align-items-center justify-content-between">
+            <div class="svg-canvas">
+                <svg class="svg-list" viewBox="0 0 640 512">
+                    <path
+                        d="M320 104.5c171.4 0 303.2 72.2 303.2 151.5S491.3 407.5 320 407.5c-171.4 0-303.2-72.2-303.2-151.5S148.7 104.5 320 104.5m0-16.8C143.3 87.7 0 163 0 256s143.3 168.3 320 168.3S640 349 640 256 496.7 87.7 320 87.7zM218.2 242.5c-7.9 40.5-35.8 36.3-70.1 36.3l13.7-70.6c38 0 63.8-4.1 56.4 34.3zM97.4 350.3h36.7l8.7-44.8c41.1 0 66.6 3 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7h-70.7L97.4 350.3zm185.7-213.6h36.5l-8.7 44.8c31.5 0 60.7-2.3 74.8 10.7 14.8 13.6 7.7 31-8.3 113.1h-37c15.4-79.4 18.3-86 12.7-92-5.4-5.8-17.7-4.6-47.4-4.6l-18.8 96.6h-36.5l32.7-168.6zM505 242.5c-8 41.1-36.7 36.3-70.1 36.3l13.7-70.6c38.2 0 63.8-4.1 56.4 34.3zM384.2 350.3H421l8.7-44.8c43.2 0 67.1 2.5 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7H417l-32.8 168.7z" />
+                </svg>
+            </div>
+            <span>PHP Dev</span>
         </div>
-        <div class="skill-card d-flex gap-3 p-2 flex-column align-items-center">
-            <svg class="svg-list" viewBox="0 0 512 512">
-                <path
-                    d="M320 488c0 9.5-5.6 18.1-14.2 21.9s-18.8 2.3-25.8-4.1l-80-72c-5.1-4.6-7.9-11-7.9-17.8s2.9-13.3 7.9-17.8l80-72c7-6.3 17.2-7.9 25.8-4.1s14.2 12.4 14.2 21.9v40h16c35.3 0 64-28.7 64-64V153.3C371.7 141 352 112.8 352 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V320c0 70.7-57.3 128-128 128H320v40zM456 80a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM192 24c0-9.5 5.6-18.1 14.2-21.9s18.8-2.3 25.8 4.1l80 72c5.1 4.6 7.9 11 7.9 17.8s-2.9 13.3-7.9 17.8l-80 72c-7 6.3-17.2 7.9-25.8 4.1s-14.2-12.4-14.2-21.9V128H176c-35.3 0-64 28.7-64 64V358.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V192c0-70.7 57.3-128 128-128h16V24zM56 432a24 24 0 1 0 48 0 24 24 0 1 0 -48 0z" />
-            </svg>
+        <div class="skill-card d-flex gap-3 p-2 flex-column align-items-center justify-content-between">
+            <div class="svg-canvas">
+                <svg class="svg-list" viewBox="0 0 512 512">
+                    <path
+                        d="M320 488c0 9.5-5.6 18.1-14.2 21.9s-18.8 2.3-25.8-4.1l-80-72c-5.1-4.6-7.9-11-7.9-17.8s2.9-13.3 7.9-17.8l80-72c7-6.3 17.2-7.9 25.8-4.1s14.2 12.4 14.2 21.9v40h16c35.3 0 64-28.7 64-64V153.3C371.7 141 352 112.8 352 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V320c0 70.7-57.3 128-128 128H320v40zM456 80a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM192 24c0-9.5 5.6-18.1 14.2-21.9s18.8-2.3 25.8 4.1l80 72c5.1 4.6 7.9 11 7.9 17.8s-2.9 13.3-7.9 17.8l-80 72c-7 6.3-17.2 7.9-25.8 4.1s-14.2-12.4-14.2-21.9V128H176c-35.3 0-64 28.7-64 64V358.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V192c0-70.7 57.3-128 128-128h16V24zM56 432a24 24 0 1 0 48 0 24 24 0 1 0 -48 0z" />
+                </svg>
+            </div>
             <span>DevOps Enginer</span>
         </div>
     </div>
-    <div class="container mb-5">
+    <div class="section container mb-5" id="contact-me">
         <div class="section-title mb-5">
             <h1>Lets Have a Chat!</h1>
         </div>
@@ -176,7 +200,7 @@
             </div>
         </div>
     </div>
-    <div class="mt-5 py-3 footer">
+    <div class="section mt-5 py-3 footer" id="footer">
         <div class="d-flex flex-row justify-content-center align-items-center">
             <div class="mx-5">
                 <a href="https://github.com/koetjeengdjalanan">
