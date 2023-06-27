@@ -10,6 +10,7 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    color: var(--primary-text);
 }
 
 body {
@@ -18,10 +19,18 @@ body {
 }
 
 .section {
+    margin: 5rem 0 5rem 0;
     width: 100vw;
     min-height: 85svh;
     max-height: 100svh;
     padding: 0 5rem 0 5rem;
+}
+
+.section-title {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .aka {
@@ -42,6 +51,7 @@ body {
 .paragraph {
     text-align: justify;
     text-justify: inter-word;
+    text-indent: 5rem;
 }
 
 .roman-date {
@@ -79,4 +89,28 @@ body {
 .virtue strong {
     color: var(--analogous1);
     opacity: 1;
+}
+
+.working-pic {
+    height: 90%;
+}
+
+.footer {
+    background-color: var(--secondary);
+}
+
+.footer-icon {
+    width: auto;
+    height: 1.5rem;
+    fill: var(--primary-text);
+}
+
+.footer-icon:hover .footer-icon:visited {
+    fill: var(--analogous2);
+}
+
+.copyright {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
 }
