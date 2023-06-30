@@ -104,6 +104,11 @@ body .section {
 .virtue strong {
     color: var(--analogous1);
     opacity: 1;
+    transition: font-size large;
+}
+
+.virtue strong:hover {
+    font-size: larger;
 }
 
 .working-pic {
@@ -120,7 +125,7 @@ body .section {
     fill: var(--primary-text);
 }
 
-.footer-icon:hover .footer-icon:visited {
+.footer-icon:hover {
     fill: var(--analogous2);
 }
 
@@ -165,7 +170,7 @@ body .section {
 }
 
 .wave-2 {
-    margin-top: -1rem;
+    margin-bottom: -1rem;
     background-image: url(./wave2.svg);
 }
 
