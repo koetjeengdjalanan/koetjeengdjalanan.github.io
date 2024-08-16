@@ -177,3 +177,27 @@ body .section {
 #more-about-me {
     background-color: var(--secondary);
 }
+
+.card {
+    background-color: var(--secondary);
+    width: 30vw;
+}
+
+.list-group-item {
+    background-color: transparent;
+    color: var(--primary-text);
+    border-color: var(--analogous1);
+}
+
+.card-text {
+    text-align: justify;
+}
+
+a.card-link {
+    color: var(--analogous2);
+}
+
+a.card-link:hover,
+a.card-link:visited {
+    color: var(--analogous1);
+}
